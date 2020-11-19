@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+          integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/app.min.css">
+    <title>Simple Green Store</title>
+</head>
+<body>
+<!--Preloader-->
+<div class="preloader">
+    <div class="preloader-row">
+        <div class="preloader-item"></div>
+        <div class="preloader-item"></div>
+    </div>
+</div>
+<!--Instagram fixed button-->
+<a href="https://www.instagram.com/simplegreen.by/" class="side-button" target="_blank"><i class="fab fa-instagram"></i></a>
+<!--Modal Window-->
+<div class="modal hidden">
+    <ul class="modal-social social-links-list">
+        <li class="social-links-list-item"><a href="tel:+375173771377"><i class="fas fa-phone-alt"></i></a></li>
+        <li class="social-links-list-item viber"><a href="viber://chat?number=+375256365217" target="_blank"><i class="fab fa-viber"></i></a></li>
+        <li class="social-links-list-item telegram"><a href="https://telegram.im/@doova_m" target="_blank"><i class="fab fa-telegram"></i></a></li>
+        <li class="social-links-list-item whatsapp"><a href="https://wa.me/375256365217" target="_blank"><i class="fab fa-whatsapp-square"></i></a></li>
+    </ul>
+    <button class="close-modal">&times;</button>
+    <div class="modal-content">
+        <h2>Возможные способы доставки:</h2>
+        <ol>
+            <li>Самовывоз в г. Минске - ЖК Маяк Мстиславца 8 -377</li>
+            <li>Доставка курьером по г. Минску - 5 руб. по будням и 7 руб. по выходным дням. При заказе от 50 руб - <strong>БЕСПЛАТНО</strong></li>
+            <li>Отправка заказов почтой по РБ - от 4,5 руб.</li>
+            <li>Отправка заказов экспресс-почтой по РБ - 7,60 руб.</li>
+            <li>Отправка заказов компанией "Европочта" по РБ - от 1,92 до отделения, от 6.60 руб. до двери.</li>
+        </ol>
+
+        <p>Возможна отправка заказов в СНГ (стоимость рассчитывается индивидуально).</p>
+
+        <h4>Прочие условия:</h4>
+        <p> При наличии товара в магазине доставка возможна в этот же день до 21.00.
+            При заказе после 17.00 доставка может осуществляться на следующий день с 10.00 до 21.00.
+            Важно: оформляя заказ оговаривайте заранее с менеджером все интересующие Вас вопросы: курьер – это человек,
+            который доставляет товар, он может не знать ответов на Ваши вопросы.
+        </p>
+
+        <h4> Способы оплаты:</h4>
+        <ol>
+            <li>Наличными</li>
+            <li>Банковской картой online</li>
+            <li>ЕРИП (только после звонка менеджера и подтверждения заказа!)</li>
+        </ol>
+        <p>Доставка осуществляется только по предоплате.</p>
+    </div>
+
+</div>
+<div class="overlay hidden"></div>
+<!--END Modal Window-->
+<!--Header-->
+<header class="header">
+    <div class="company-logo"><a href="#introSection"><img class="company-logo-img" src="./images/dest/logo.svg"
+                                                           alt="Logo"></a></div>
+    <nav class="header-nav">
+        <ul class="header-nav-list">
+            <li class="header-nav-list-item"><a href="#aboutSection" class="header-nav-list-link">Главная</a></li>
+            <li class="header-nav-list-item"><a href="#productsSection" class="header-nav-list-link">Продукты</a></li>
+            <li class="header-nav-list-item"><a href="#storesSection" class="header-nav-list-link">Контакты</a></li>
+        </ul>
+    </nav>
+    <a href="#" class="header-delivery delivery-button button">Заказать доставку</a>
+</header>
+<!--Main-->
+<main>
+    <!--    Intro Section-->
+    <section id="introSection" class="intro parallax grid section">
+        <div class="intro-content grid">
+            <div class="intro-logo"><img class="header-logo-img" src="./images/dest/logo.svg" alt="LogoSG"></div>
+            <div class="intro-vertical">
+                <h1 class="intro-title">Здоровое питание - это легко</h1>
+                <p class="intro-text">Гарантированная экономия на ваших любимых органических брендах с доставкой к вашей
+                    двери</p>
+                <a href="#aboutSection" class="intro-button button">Погнали!</a>
+            </div>
+        </div>
+    </section>
+    <!--    About Section-->
+    <section id="aboutSection" class="about grid section">
+        <div class="about-image"><img src="./images/dest/about3.jpg" alt="Team"></div>
+        <div class="about-content">
+            <h2 class="about-title section-title">Привет Друг!</h2>
+            <p class="about-text">Команда Simple Green
+                приветствует тебя 🖖</p>
+            <p class="about-text">Мы не просто магазин эко товаров, мы – территория здорового питания.
+                Мы искренне верим, что полезное и правильное питание должно быть доступно каждому,
+                поэтому мы и решили открыть это пространство, где ты сможешь найти не только всё необходимое
+                для здоровой сбалансированной диеты, но также получить совет и консультацию. </p>
+            <p class="about-text">Наша цель – научить базовым принципам и направить как можно большее количество людей
+                на путь здорового образа жизни. 🥦</p>
+            <p class="about-text">А здоровый образ жизни, в свою очередь, начинается с правильного питания. </p>
+            <p class="about-text">С Simple Green это становится проще!</p>
+        </div>
+    </section>
+    <!--    Products Section-->
+    <section id="productsSection" class="products grid section">
+        <div class="products-text">
+            <h2 class="products-title section-title">На територии здорового питания</h2>
+            <p class="products-paragraph">От органических продуктов для вашего стола до природной красоты и чистого
+                дома</p>
+        </div>
+        <div class="products-content grid">
+            <div class="products-content-categories">
+                <button class="products-content-categories-button is-active" data-tab-name="cat-tab-1">Злаки, бобы,
+                    орехи
+                </button>
+                <button class="products-content-categories-button" data-tab-name="cat-tab-2">Натуральные сладости и
+                    пасты
+                </button>
+                <button class="products-content-categories-button" data-tab-name="cat-tab-3">Продукты из сои, масла и
+                    специи
+                </button>
+                <button class="products-content-categories-button" data-tab-name="cat-tab-4">Безалкогольные напитки
+                </button>
+                <button class="products-content-categories-button" data-tab-name="cat-tab-5">Натуральные средства
+                    гигиены
+                </button>
+                <button class="products-content-categories-button" data-tab-name="cat-tab-6">Натуральная косметика
+                </button>
+                <button class="products-content-categories-button" data-tab-name="cat-tab-7">Эко средства для дома
+                </button>
+                <button class="products-content-categories-button" data-tab-name="cat-tab-8">Аюрведа и благовония
+                </button>
+            </div>
+            <div class="products-content-list cat-tab is-active cat-tab-1">
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat1-1.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Зерновые, бобовые, семена, орехи</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat1-2.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Клетчатка, отруби, безглютеновая мука и смеси</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat1-3.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Хлеб на закваске, хлебцы из полбы</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat1-4.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Макароны, лапша</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat1-5.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Кэроб, какао и производные продукты</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products-content-list cat-tab cat-tab-2">
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat2-1.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Сладости, батончики, шоколад</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat2-2.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Торты на заказ</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat2-3.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Мороженое на растительном молоке</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat2-4.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Арахисовая паста, урбеч</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat2-5.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Натуральный мёд</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products-content-list cat-tab cat-tab-3">
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat3-1.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Соевые продукты, пророщенные зёрна </p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat3-2.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Веганская колбаса, сосиски</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat3-3.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Суперфуды</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat3-4.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Растительные (пищевые) масла холодного отжима</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat3-5.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Специи из Азии</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products-content-list cat-tab cat-tab-4">
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat4-1.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Различные виды орехового молока</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat4-2.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Чай, чайные напитки</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat4-3.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Кофе</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat4-4.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Кисели, талканы</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat4-5.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Натуральные минеральные воды</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products-content-list cat-tab cat-tab-5">
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat5-1.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Натуральные шампуни, гели, тоник-кондиционер для волос</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat5-2.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Натуральное мыло</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat5-3.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Средства для ухода за полостью рта, зубные щётки</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat5-4.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Натуральные дезодоранты</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat5-5.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Натуральные гели для душа</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products-content-list cat-tab cat-tab-6">
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat6-1.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Средства для ухода за волосами</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat6-2.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Кремы для рук</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat6-3.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Бальзамы для губ</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat6-4.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Хна для мехенди</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat6-5.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Косметика для тела</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat6-6.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Косметика для лица</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat6-7.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Масла</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products-content-list cat-tab cat-tab-7">
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat7-1.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Эко стиральные порошки и кондиционеры</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat7-2.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Эко средства для мытья посуды</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat7-3.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Эко средства для уборки дома</p>
+                    </div>
+                </div>
+            </div>
+            <div class="products-content-list cat-tab cat-tab-8">
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat8-1.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Аюрведические препараты</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat8-2.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Натуральные благовония на древесной основе</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat8-3.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Натуральные благовония конусы</p>
+                    </div>
+                </div>
+                <div class="products-content-list-item">
+                    <div class="products-content-list-item-img"><img src="./images/dest/categories/cat8-4.jpg" alt="">
+                    </div>
+                    <div class="products-content-list-item-label">
+                        <p>Благовония на угольной основе</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    Brands Section-->
+    <section id="brandsSection" class="brands grid" style="background-image: url('./images/dest/brands.jpg')">
+        <div class="brands-content ">
+            <h2 class="brands-title section-title">Мы бережно выбираем продукты для Вас:</h2>
+            <p class="brands-text">От сердца, к сердцу ❤️</p>
+            <div class="brands-list grid">
+                <div class="brands-list-item"><img src="./images/dest/brands1.png" alt="" class="brands-list-item-logo">
+                </div>
+                <div class="brands-list-item"><img src="./images/dest/brands2.png" alt="" class="brands-list-item-logo">
+                </div>
+                <div class="brands-list-item"><img src="./images/dest/brands3.png" alt="" class="brands-list-item-logo">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Way Product Section-->
+    <section class="way section">
+        <h2 class="way-title section-title">Лучше для тебя и для планеты</h2>
+        <div class="way-container grid">
+            <div class="way-item grid">
+                <div class="way-item-img" style="background-image: url('./images/dest/way1.jpg')"></div>
+                <p class="way-item-caption">Проверенные источники натуральных товаров</p>
+            </div>
+            <div class="way-item grid">
+                <div class="way-item-img" style="background-image: url('./images/dest/way2.jpg')"></div>
+                <p class="way-item-caption">Углеродно-нейтральная доставка</p>
+            </div>
+            <div class="way-item grid">
+                <div class="way-item-img" style="background-image: url('./images/dest/way3.jpg')"></div>
+                <p class="way-item-caption">Безотходные склады</p>
+            </div>
+            <div class="way-item grid">
+                <div class="way-item-img" style="background-image: url('./images/dest/way4.jpg')"></div>
+                <p class="way-item-caption">Перерабатываемая / компостируемая упаковка</p>
+            </div>
+            <div class="way-separator"></div>
+        </div>
+    </section>
+    <!--Store Map Section-->
+    <section id="storesSection" class="stores">
+        <div class="stores-container grid">
+            <div class="stores-text">
+                <h2 class="stores-title section-title">Мы на карте:</h2>
+                <p class="stores-paragraph">Мы находимся в ЖК «Маяк Минска», это тот что на станции метро «Восток» сразу за «Dana Mall» (всего 400 метров).</p>
+                <p class="stores-paragraph">Так вот, там есть прогулочная аллея, выходите на неё и ныряйте в арку. Нашу вывеску вы уж точно не пропустите.</p>
+                <p class="stores-paragraph">Дом под номером 8 по улице Петра Мстиславца, вход в магазин со двора прямо напротив самой большой детской площадки в Минске.
+                    Увидите нашу вывеску – смело заходите в гости, мы вас ждём!</p>
+                <h4 class="stores-text-sub-title">Адрес:</h4>
+                <p class="stores-location">ЖК Маяк Минска, ул. Петра Мстиславца 8, помещение 377, Минск</p>
+                <h4 class="stores-text-sub-title">Телефоны:</h4>
+                <ul>
+                    <li><a href="tel:+375173771377" class="stores-text-tel">+375 (17) 377-1-377</a></li>
+                    <li><a href="tel:+375256365217" class="stores-text-tel">+375 (25) 636-5-217</a></li>
+                </ul>
+            </div>
+            <div class="stores-map">
+<!--                Google maps-->
+                <!--                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2349.052635044102!2d27.65000711573933!3d53.930808738472535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTPCsDU1JzUwLjkiTiAyN8KwMzknMDcuOSJF!5e0!3m2!1sen!2sua!4v1604925654699!5m2!1sen!2sua"-->
+                <!--                        width="100%" height="510" frameborder="0" style="border:0;" allowfullscreen=""-->
+                <!--                        aria-hidden="false" tabindex="0"></iframe>-->
+                <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A40a0b738826a115d3ee595efdb9c84cd77b9c9b367dc222ad253978fc51db186&amp;source=constructor"
+                        width="100%" height="450" frameborder="0"></iframe>
+            </div>
+        </div>
+    </section>
+</main>
+<!--Footer-->
+<footer class="footer">
+    <div class="footer-container flex">
+        <div class="company-logo"><img class="company-logo-img" src="./images/dest/logo.svg" alt="LogoSG"></div>
+        <div class="social-links">
+            <ul class="social-links-list">
+                <li class="social-links-list-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li class="social-links-list-item"><a href="https://www.instagram.com/simplegreen.by/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li class="social-links-list-item"><a href="#"><i class="fab fa-vk"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer-rights">© Simple Green Company 2020 All rights reserved.</div>
+</footer>
+
+<script src="./js/app.min.js"></script>
+</body>
+</html>
