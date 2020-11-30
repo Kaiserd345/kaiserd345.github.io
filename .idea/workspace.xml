@@ -1,59 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="216e224b-c75b-4ce4-bbfb-953a36257a5e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/app.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/app.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/about3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/about3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/brands.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/brands.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/brands1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/brands1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/brands2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/brands2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/brands3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/brands3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat1-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat1-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat1-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat1-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat1-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat1-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat1-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat1-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat1-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat1-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat2-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat2-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat2-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat2-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat2-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat2-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat2-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat2-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat2-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat2-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat3-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat3-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat3-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat3-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat3-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat3-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat3-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat3-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat3-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat3-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat4-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat4-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat4-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat4-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat4-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat4-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat4-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat4-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat4-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat4-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat5-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat5-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat5-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat5-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat5-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat5-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat5-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat5-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat5-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat5-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat6-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat6-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat6-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat6-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat6-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat6-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat6-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat6-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat6-5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat6-5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat6-6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat6-6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat6-7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat6-7.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat7-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat7-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat7-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat7-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat7-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat7-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat8-1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat8-1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat8-2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat8-2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat8-3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat8-3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/categories/cat8-4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/categories/cat8-4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/way1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/way1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/way2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/way2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/way3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/way3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/dest/way4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/dest/way4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/app.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/app.min.js" afterDir="false" />
-    </list>
+    <list default="true" id="216e224b-c75b-4ce4-bbfb-953a36257a5e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +34,7 @@
       <updated>1605786986071</updated>
       <workItem from="1605786987190" duration="277000" />
       <workItem from="1605787856786" duration="308000" />
-      <workItem from="1606251069960" duration="99000" />
+      <workItem from="1606251069960" duration="393000" />
     </task>
     <servers />
   </component>
